@@ -1,0 +1,10 @@
+{
+  "name": "ritbit",
+  "version": "1",
+  "description": "Ritual game app",
+  "main": "index.html",
+  "repository": "https://github.com/Oglesson/ritbit.git",
+  "author": "Sophie Oglesson <sophie.oglesson@virginmedia.co.uk>",
+  "license": "MIT",
+  "private": true
+}

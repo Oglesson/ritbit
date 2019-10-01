@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const ritSummary = () => {
+const RitSummary = () => {
   return (
     <li>
       <h2>Test title</h2>
@@ -12,12 +12,14 @@ const ritSummary = () => {
   );
 }
 
-const ritList = () => {
-  return (
+class RitList extends React.Component {
+  render() {
+    return (
       <ul>
-        <ritSummary />
+        <RitSummary />
       </ul>
-  );
+    )
+  }
 }
 
 
@@ -39,7 +41,7 @@ class App extends Component {
             Learn React poo
           </a>
         </header>
-        <ritList />
+        <RitList />
       </div>
     );
   }

@@ -1,0 +1,68 @@
+<!-- protoyotype/sandbox to explore at layout of tool before breaking into react components -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ritual Marking Prototype</title>
+       <meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       <link rel="stylesheet" href="css/p.css">
+    </head>
+    <body>
+        <header>
+            <h1>Curious Pastimes: Ritual Marking Tool</h1>
+            <h2>Event: Renewal</h2>
+        </header>
+        <form>
+            <fieldset>               
+                <label>Date:</label> <!--Calendar Date picker?-->
+                <label>Time Started:</label><!-- some king of time format masking/validation-->
+                <label>Descriptor:</label><!--Description of desired outcome e.g. Renewal of Sword of Spheres-->
+                <label>Target:</label><!-- How difficult the ritual is. Team must exceed points to succeed -->
+            </fieldset>
+            <div>
+                <h3>Circle Power:</h3>
+                <aside>
+                    <dl>
+                        <dt>Pre-booked cost:</dt>
+                        <dd></dd>
+                        <dt>Unbooked cost:</dt>
+                        <dd></dd>
+                    </dl>
+                </aside>
+                Marker
+                
+            </div>
+            <fieldset name="key-team-details">
+                <legend>Key Ritual/Team Details</legend>
+                Faction/Group
+                Ritualist IC/OOC
+                Is ritual part of series?
+                Result(s) of previous rituals
+            </fieldset>
+            <fieldset name="pre-ritual-points">
+                <legend>Points from Team</legend>
+                Points from Ritualist
+                Ritual points from Item
+                Contribute Points
+                Contribute Points from Item
+                Negative Contribute from person
+                Negative Contribute from Item
+                Points from sacrifice
+            </fieldset>
+            <fieldset name="markers-points">
+                <legend>Points from Marker (Performance)</legend>
+                Roleplaying
+                Structure &amp; Form
+                Cohesion
+                Costume &amp;Props
+            </fieldset>
+        </form>
+        <footer>
+            <h3>Calculated Ritual Points</h3>
+            <label>Points from team:</label>><output> </output>
+            <label>Sacrifice:</label>><output> </output>
+            <label>Total Marks/Modifier:</label>><output> </output>
+            <label>Final Result</label><output> </output>
+        </footer>
+    </body>
+</html>

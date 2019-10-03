@@ -1,0 +1,7 @@
+body{
+    --main-theme-bg-color: #d7be98;
+    --main-theme-txt-color: #333;
+    font-family: "Garamond" , Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--main-theme-bg-color);}
+header{}
+footer{}
